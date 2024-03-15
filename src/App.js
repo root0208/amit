@@ -1,5 +1,5 @@
 import './App.css';
-
+import Navbar from './components/Navbar';
 function App() {
   return (
     <>
@@ -25,7 +25,8 @@ function App() {
     </div>
   </div>
 </nav>
-    </>
+<Navbar/>
+</>
   );
 }
 
